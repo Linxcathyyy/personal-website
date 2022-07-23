@@ -2,7 +2,6 @@ import React from 'react'
 import './footer.css'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {FiGithub} from 'react-icons/fi'
-import Picker from 'emoji-picker-react';
 
 const Footer = () => {
   return (

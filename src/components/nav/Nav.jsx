@@ -17,12 +17,6 @@ const Nav = () => {
     setShow(!show);
   }
 
-  const [isDarkMode, setDarkMode] = React.useState(false);
-
-  const toggleDarkMode = (checked) => {
-    setDarkMode(checked);
-  };
-
   return (
     <div className='nav-header'>
       <nav className= {show ? 'reponsive-nav' : ''}>
