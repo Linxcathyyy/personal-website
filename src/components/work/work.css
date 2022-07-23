@@ -1,0 +1,28 @@
+.work-content {
+    word-break: break-word;
+}
+.work-content a{
+    color: black;
+    text-decoration: underline;
+}
+.work-content a:hover{
+    text-decoration: none;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.work-content h2 {
+    padding: 0px 0 5px 0px;
+}
+.work-content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+}
+.work-content p {
+    width: 100%;
+    height: 100%;
+}
