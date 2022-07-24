@@ -17,6 +17,7 @@ textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .msg-success {

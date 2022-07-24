@@ -20,7 +20,7 @@ const Experience = () => {
             aperiam voluptatem atque. Beatae rerum dolores sunt.
           </p>
           <br></br>
-          <h2>Part-Time Web Developer @<a href="https://vibefam.com/" target="__blank">vibefam</a></h2>
+          <h2>Front-End Engineer @<a href="https://vibefam.com/" target="__blank">vibefam</a></h2>
           <h5>Nov 2021 - Jan 2022</h5>
           <hr />
           <p>
