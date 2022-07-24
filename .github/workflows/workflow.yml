@@ -13,15 +13,11 @@ jobs:
         node-version: [15.x]
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Install yarn
-        run: npm install --global yarn
-      - name: Install dependencies
-        run: yarn install
-      - name: Build for production
-        run: npm run build
+      - uses: actions/checkout@v1
+      - name: Install and build
+        run: npm install && npm run build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.4.0
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
           folder: build
